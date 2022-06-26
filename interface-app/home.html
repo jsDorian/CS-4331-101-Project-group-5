@@ -1,0 +1,10 @@
+<h1>Secure Healthcare System</h1>
+<h2>By 
+	<span ng-repeat = "x in groupMembers">
+		<span ng-if = "$index != groupMembers.length">{{x + ', '}}</span>
+		<span ng-if = "$index == groupMembers.length">{{x}}</span>
+	</span>
+</h2>
+
+<a href="#!/login">Login</a>
+<a href="#!/register">Register</a>

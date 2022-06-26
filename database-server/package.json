@@ -1,0 +1,18 @@
+{
+  "name": "shs-database-server-interface",
+  "version": "1.0.0",
+  "description": "SHS database server interface",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start": "electron --inspect-brk=9222 ."
+  },
+  "author": "Osasenaga Irabor",
+  "license": "ISC",
+  "dependencies": {
+    "sqlite3": "^5.0.8"
+  },
+  "devDependencies": {
+    "electron": "^19.0.6"
+  }
+}
